@@ -1,3 +1,16 @@
+# AWS S3 Bucket Configuration
+
+# This Terraform configuration defines the setup for an AWS S3 bucket named "mybucket". It includes the following resources:
+
+# - aws_s3_bucket: Defines the S3 bucket itself.
+# - aws_s3_bucket_ownership_controls: Sets up ownership controls to ensure BucketOwnerPreferred object ownership.
+# - aws_s3_bucket_public_access_block: Configures settings to enable public access to the bucket.
+# - aws_s3_bucket_acl: Sets the access control list (ACL) to allow public read access.
+# - aws_s3_object (index, error, profile): Defines S3 objects to be uploaded to the bucket, including index.html, error.html, and a profile image.
+# - aws_s3_bucket_website_configuration: Configures the bucket to serve as a website, with index.html as the index document and error.html as the error document.
+
+# Ensure to replace placeholders such as "var.bucket_name" with appropriate values before applying this configuration.
+
 # Define an S3 bucket resource named "mybucket"
 resource "aws_s3_bucket" "mybucket" {
   bucket = var.bucket_name
