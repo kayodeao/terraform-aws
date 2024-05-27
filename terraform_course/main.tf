@@ -54,8 +54,8 @@ resource "aws_s3_object" "error" {
 # Define an S3 object resource for the profile image
 resource "aws_s3_object" "profile" {
   bucket = aws_s3_bucket.mybucket.id
-  key    = "19CG026396b (1).jpg"
-  source = "19CG026396b (1).jpg"
+  key    = "picture.jpg"
+  source = "picture.jpg"
   acl    = "public-read"
 }
 
