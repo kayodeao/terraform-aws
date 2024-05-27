@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>George's Cybersecurity Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #343a40;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 100px auto 0 auto;
+            padding: 20px;
+        }
+
+        .profile {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #343a40;
+            transition: transform 0.3s ease;
+        }
+
+        .profile img:hover {
+            transform: scale(1.1);
+        }
+
+        .profile h2 {
+            font-size: 2rem;
+            margin: 1rem 0;
+        }
+
+        .about {
+            background-color: #fff;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .about:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+
+        .about h3 {
+            margin-top: 0;
+            font-size: 1.5rem;
+            border-bottom: 2px solid #343a40;
+            padding-bottom: 0.5rem;
+        }
+
+        .portfolio {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .portfolio-item {
+            background-color: #fff;
+            flex: 1 1 calc(33.333% - 2rem);
+            padding: 1rem;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .portfolio-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+
+        .portfolio-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .portfolio-item h4 {
+            font-size: 1.2rem;
+            margin: 1rem 0;
+        }
+
+        .contact {
+            background-color: #fff;
+            padding: 2rem;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .contact h3 {
+            margin-top: 0;
+            font-size: 1.5rem;
+            border-bottom: 2px solid #343a40;
+            padding-bottom: 0.5rem;
+        }
+
+        .contact p {
+            margin: 1rem 0;
+        }
+
+        .contact a {
+            color: #343a40;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .contact a:hover {
+            color: #007bff;
+        }
+
+        @media (max-width: 768px) {
+            .portfolio-item {
+                flex: 1 1 calc(50% - 2rem);
+            }
+        }
+
+        @media (max-width: 576px) {
+            .portfolio-item {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>George's Cybersecurity Portfolio</h1>
+    </header>
+    <div class="container">
+        <div class="profile">
+            <img src="19CG026396b (1).jpg" alt="George's Picture">
+            <h2>George Doe</h2>
+            <p>Cybersecurity Expert</p>
+        </div>
+        <div class="about">
+            <h3>About Me</h3>
+            <p>Hello! I'm George, a cybersecurity expert with a passion for protecting digital assets. With over 10 years of experience in the field, I specialize in network security, threat analysis, and cybersecurity training.</p>
+        </div>
+        <div class="portfolio">
+            <div class="portfolio-item">
+                <img src="path_to_project1_image.jpg" alt="Project 1">
+                <h4>Project 1: Network Security Audit</h4>
+                <p>Conducted a comprehensive network security audit for a financial institution, identifying vulnerabilities and implementing solutions to enhance security.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="path_to_project2_image.jpg" alt="Project 2">
+                <h4>Project 2: Threat Analysis System</h4>
+                <p>Developed an advanced threat analysis system to detect and mitigate cyber threats in real-time, significantly reducing the risk of data breaches.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="path_to_project3_image.jpg" alt="Project 3">
+                <h4>Project 3: Cybersecurity Training</h4>
+                <p>Conducted cybersecurity training sessions for corporate clients, enhancing their knowledge and ability to protect against cyber threats.</p>
+            </div>
+        </div>
+        <div class="contact">
+            <h3>Contact Me</h3>
+            <p>If you would like to get in touch, feel free to email me at <a href="mailto:george@example.com">george@example.com</a> or connect with me on <a href="#">LinkedIn</a>.</p>
+        </div>
+    </div>
+</body>
+</html>
