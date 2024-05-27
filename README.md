@@ -61,7 +61,23 @@ Click on the "Services" dropdown menu at the top left corner of the console, the
 ![Create Access Key](img/accesskey.png)
 *Image: Create Access Key*
 
+![](img/accesskey0.png)
+
 - Make note of the access key ID and secret access key, as they are required for programmatic access to AWS services.
+
+ ### 7. Install AWS toolkit extension in VS code
+ - click the extensions icon in VS code and search for `AWS toolkit`
+ - Click on Install
+   
+   ![AWS Toolkit](img/aws_toolkit_ext.png)
+   
+ - Input the AWS acces key credentials
+   
+   ![](img/input_creds1.png)
+
+   
+   ![](img/input_creds2.png)
+   
 
 ## Conclusion
 
