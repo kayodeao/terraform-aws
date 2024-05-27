@@ -22,18 +22,17 @@ Navigate to the [AWS Management Console](https://aws.amazon.com/console/) and si
 
 Click on the "Services" dropdown menu at the top left corner of the console, then select "IAM" under the "Security, Identity, & Compliance" category.
 
-![IAM Dashboard](images/iam_dashboard.png)
-*Image: IAM Dashboard*
+
 
 ### 3. Create a New IAM User
 
 - In the IAM dashboard, click on "Users" in the left navigation pane.
 - Click on the "Add user" button to create a new IAM user.
 
-![Create IAM User](images/create_iam_user.png)
+![Create IAM User](img/create_user.png)
 *Image: Create IAM User*
 
-- Enter a username for the new IAM user and select the access type (Programmatic access, AWS Management Console access, or Both).
+- Enter a username for the new IAM user and select the access type Programmatic access.
 - Optionally, you can add the user to an existing group or attach policies directly to the user.
 
 ### 4. Set Permissions for the IAM User
@@ -42,7 +41,7 @@ Click on the "Services" dropdown menu at the top left corner of the console, the
 - Click on the newly created user's name to view user details.
 - In the "Permissions" tab, click on "Add permissions" to attach policies.
 
-![Attach Policies](images/attach_policies.png)
+![Attach Policies](img/policy.png)
 *Image: Attach Policies*
 
 - Choose from existing policies or create custom policies to define the permissions for the IAM user.
@@ -59,7 +58,7 @@ Click on the "Services" dropdown menu at the top left corner of the console, the
 - In the IAM dashboard, select the newly created user.
 - Go to the "Security credentials" tab and click on "Create access key".
 
-![Create Access Key](images/create_access_key.png)
+![Create Access Key](img/accesskey.png)
 *Image: Create Access Key*
 
 - Make note of the access key ID and secret access key, as they are required for programmatic access to AWS services.
