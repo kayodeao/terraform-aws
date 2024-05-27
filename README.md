@@ -1,4 +1,7 @@
-# Creating an IAM User and Assigning Permissions in AWS
+# In this project we will be using Terraform and AWS Cloud to set up static website hosting 
+
+
+### Creating an IAM User and Assigning Permissions in AWS
 
 ## Introduction
 
